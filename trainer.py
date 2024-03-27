@@ -63,6 +63,7 @@ parser.add_argument('--lr', type=float, default=1e-3, help='learning rate')
 parser.add_argument('--momentum', type=float, default=0.9, help='SGD momentum')
 parser.add_argument('--wd', type=float, default=5e-5, help='weight decay')
 parser.add_argument('--dropout', type=float, default=0.5, help='dropout rate')
+parser.add_argument('--cls_weight', type=float, default=0.8, help='weight of the classification loss')
 
 args = parser.parse_args()
 
