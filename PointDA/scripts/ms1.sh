@@ -18,4 +18,4 @@ conda activate py38
 
 
 
-python ../trainer.py --out_path ../experiments --dataroot ../data --src_dataset modelnet --trgt_dataset scannet --DefRec_on_src False --cls_weight 0.8 --DefRec_weight 0.2 --lr 1e-3 --wd 5e-5
+python /scratch/mw4355/DefRec_and_PCM/trainer.py --out_path ../experiments --dataroot ../data --src_dataset modelnet --trgt_dataset scannet --DefRec_on_src False --cls_weight 0.8 --DefRec_weight 0.2 --lr 1e-3 --wd 5e-5
