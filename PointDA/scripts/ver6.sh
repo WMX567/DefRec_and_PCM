@@ -7,9 +7,7 @@
 #SBATCH --output=ver6.out
 
 
-sbatch sm1.sh
-sbatch ms1.sh
-sbatch s+m1.sh
-sbatch ms+1.sh
-sbatch s+s1.sh
-sbatch ss+1.sh
+sbatch sm1_6.sh
+sbatch s+m1_6.sh
+sbatch ms+1_6.sh
+sbatch ss+1_6.sh
